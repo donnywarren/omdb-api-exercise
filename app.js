@@ -29,13 +29,6 @@ button.addEventListener('click', async (event) => {
 });
 
 
-function myFunction() {
-  var btn = document.createElement("BUTTON");
-  btn.innerHTML = "CLICK ME";
-  document.body.appendChild(btn);
-}
-
-
 buildCard = () => {
   const card = document.createElement("div");
   card.className = "movie-card";
